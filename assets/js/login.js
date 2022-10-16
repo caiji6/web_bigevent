@@ -13,7 +13,11 @@ $(function(){
 
     // 从layui中获取form对象
     var form = layui.form
+
+
     var layer = layui.layer
+
+    
     // 通过form.verif()自定义校验规则
     form.verify({
         // 自定义了一个叫做pwd的校验规则
